@@ -8,7 +8,7 @@ from streamlit_option_menu import option_menu
 
 
 
-heart_disease_model = pickle.load(open('C:/Users/dhana/Documents/Heart disease prediction system/saved models/heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
 
 
 # sidebar for navigation
